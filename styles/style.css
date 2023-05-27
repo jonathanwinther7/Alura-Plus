@@ -202,3 +202,56 @@ body {
     text-decoration: none;
     font-size: 0.875rem;
 }
+
+@media screen and (max-width: 768px) {
+    .container {
+        display: block;
+        background-image: none;
+    }
+
+    .container__imagem_combo {
+        width: 45vh;
+    }
+
+    .container__caixa {
+        margin: 2em 2em;
+    }
+
+    .secundario {
+        margin: 0;
+        margin-top: 100px;
+        text-align: center;
+    }
+
+    .secundario__imagem__monitor{
+        width: 45vh;
+    }
+
+    .terciario {
+        margin: 2em 2em;
+        margin-top: 200px;
+        text-align: center;
+    }
+
+    .descricao__imagem__telas {
+        width: 40vh;
+    }
+
+    .quaternario {
+        margin: 2em 2em;
+        margin-top: 230px;
+        text-align: center;
+    }
+
+    .container__imagem__notebook {
+        width: 45vh;
+    }
+
+    .dispositivos__lista {
+        display: block;
+    }
+
+    .rodape__lista {
+        display: block;
+    }
+}
